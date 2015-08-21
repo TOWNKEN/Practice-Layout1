@@ -1,0 +1,164 @@
+body{
+	background-image:url('../images/bg_html.jpg') ;
+}
+
+.LOGO{
+	float: left;
+}
+
+
+.society{
+	margin: 0;
+    padding: 0px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+.society li{
+    width: 30px;
+    float:left;
+}
+.menu{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: 120px;
+    float: right;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+}
+.menu a:hover{
+	color: #00BBFF;
+	text-decoration: none;
+}
+.menu a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.active{
+color: #00BBFF;
+}
+
+
+.menu li{
+    width: 90px;
+    float:left;
+    display: inline-block;
+   
+    overflow: hidden;
+}
+.content{
+	width: 50%;
+	margin: 0px auto;
+    padding: 0px;
+}
+.banner{
+	background-color: #292929;
+	height: 415px;
+	width: 950px;
+	float: left;
+}
+.banner img{
+	float: left;
+}
+
+.banner input{
+	background-color: #3F3F3F;
+	color: #FFFFFF;
+	border: 0;
+	width: 130px;
+	height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.banner h1{
+	color: #00BBFF;
+	margin-left: 680px;
+}
+.banner section{
+	color: #888888;
+	margin-left: 680px;
+}
+.top{
+	 left: 0px;
+}
+
+.centerBox {
+	float: left;
+	width: 950px;
+	height: 150px;
+	margin-top: 30px;
+	background-color: #FFF;
+}
+
+.centerBox section{
+	margin: 30px;
+}
+
+.font{
+	font-family:sans-serif;
+}
+.bottomBox {
+	float: left;
+	width: 950px;
+	height: 480px;
+	margin-top: 30px;
+	background-color: #FFF;
+}
+.bottomBox h2{
+	margin: 33px;
+}
+
+.bottomBox span{
+	color: #00BBFF;
+}
+
+.bottomleftbox {
+	float: left;
+	width: 600px;
+}
+
+.bottomleftbox div{
+	float: left;
+	width: 600px;
+	margin: 30px;
+	margin-bottom: 5px;
+}
+
+.bottomleftbox b {
+	margin: 10px;
+}
+
+.bottomleftbox section {
+	margin-left: 195px;
+}
+
+.bottomleftbox img{
+	float: left;
+}
+
+.bottomrightbox {
+	float: right;
+	width: 300px;
+	height: 480px;
+}
+
+.bottomrightbox li{
+	background-image: url("../images/icon_03.png");
+	background-repeat: no-repeat; 
+	background-position: 0px 8px;
+	padding: 0px 0px 5px 15px;
+	line-height: 20px;
+	 overflow: hidden;
+}
+
+.bottomrightbox ul{
+	padding: 0px 0px 0px 33px;
+}
+.bottomrightbox input{
+	border-color: #E0E0E0;
+}
+.section_line_high{
+	line-height: 25px;
+}
