@@ -2,14 +2,27 @@ body {
     background-image: url('../images/bg_html.jpg');
 }
 
-.LOGO {
+.header {
     float: left;
+    width: 945px;
+    margin-top: 30px;
+}
+.LOGO {
+	float: left;
+}
+.LOGO a {
+	background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: block;
+   	width: 170px;
+    height: 80px;
+    text-indent: -9999px;
 }
 
 .society {
-    margin: 0;
-    padding: 0px;
     float: right;
+    margin-bottom: 40px;
     display: block;
     overflow: hidden;
 }
@@ -20,15 +33,18 @@ body {
 }
 
 .menu {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 120px;
+	padding-right: 30px;
     float: right;
     display: block;
     overflow: hidden;
     text-decoration: none;
-    position:absolute;
- 	right:450px;
+}
+
+.menu li {
+    width: 90px;
+    float: left;
+    display: inline;
+    overflow: hidden;
 }
 
 .menu a:hover {
@@ -48,16 +64,11 @@ body {
     color: black;
 }
 
-.menu li {
-    width: 90px;
-    float: left;
-    display: inline-block;
-    overflow: hidden;
-}
+
 
 .content {
-    width: 50%;
-    margin: 35px auto;
+    width: 945px;
+    margin: 0 auto;
 }
 
 .banner {
@@ -92,9 +103,7 @@ body {
     margin-left: 680px;
 }
 
-.top {
-    left: 0px;
-}
+
 
 .centerBox {
     float: left;
@@ -112,9 +121,6 @@ body {
  	color: #00BBFF;
  }
 
-.font {
-    font-family: sans-serif;
-}
 
 .bottomBox {
     float: left;
