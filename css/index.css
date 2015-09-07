@@ -33,7 +33,7 @@ body {
 }
 
 .menu {
-	padding-right: 30px;
+    margin-top: 60px;
     float: right;
     display: block;
     overflow: hidden;
