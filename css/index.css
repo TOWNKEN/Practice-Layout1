@@ -2,6 +2,12 @@ body {
     background-image: url('../images/bg_html.jpg');
 }
 
+.bodyContent
+{
+	font-family: sans-serif;
+	line-height: 28px;
+}
+
 .header {
     float: left;
     width: 945px;
@@ -98,7 +104,7 @@ body {
     margin-left: 680px;
     }
 
-.banner section {
+.banner p {
     color: #888888;
     margin-left: 680px;
 }
@@ -113,11 +119,11 @@ body {
     background-color: #FFF;
 }
 
-.centerBox section {
+.centerBox p {
     margin: 30px;
  }
 
- .centerBox span{
+ .centerBox em{
  	color: #00BBFF;
  }
 
@@ -134,7 +140,7 @@ body {
     margin: 33px;
  }
 
-.bottomBox span {
+.bottomBox em {
     color: #00BBFF;
 }
 
@@ -154,7 +160,7 @@ body {
     margin: 30px;
 }
 
-.bottomleftbox section {
+.bottomleftbox p {
     margin-left: 225px;
 }
 
@@ -212,9 +218,10 @@ body {
     width: 950px;
     height: 130px;
     margin-top: 15px;
+    text-align: center;
 }
 
-.footertitle span {
+.footertitle em {
     color: #00BBFF;
 }
 
