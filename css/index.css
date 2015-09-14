@@ -12,6 +12,7 @@ body {
     float: left;
     width: 945px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .LOGO {
 	float: left;
@@ -67,12 +68,6 @@ body {
     color: #00BBFF;
 }
 
-.nonactive {
-    color: black;
-}
-
-
-
 .content {
     width: 945px;
     margin: 0 auto;
@@ -80,13 +75,13 @@ body {
 
 .banner {
     background-color: #292929;
-    margin-top: 30px;
     width: 950px;
     float: left;
+    margin-bottom: 30px;
 }
 
 .banner img {
-        float: left;
+    float: left;
 }
 
 .banner input {
@@ -95,14 +90,15 @@ body {
     border: 0;
     width: 130px;
     height: 40px;
-    margin-top: 30px;
     margin-left: 40px;
 }
 
 .banner h1 {
     color: #00BBFF;
     margin-left: 680px;
-    }
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .banner p {
     color: #888888;
@@ -110,76 +106,76 @@ body {
 }
 
 
-
-.centerBox {
+.MainContent {
     float: left;
     width: 950px;
-    margin-top: 30px;
     background-color: #FFF;
+    margin-bottom: 30px;
 }
 
-.centerBox p {
+.MainContent p {
     margin: 30px;
  }
 
- .centerBox em{
+ .MainContent em{
  	color: #00BBFF;
  }
 
 
-.bottomBox {
+.TeachingBox {
     float: left;
     width: 950px;
-    margin-top: 30px;
     background-color: #FFF;
+    margin-bottom: 15px;
 }
 
-.bottomBox h2 {
+.TeachingBox h2 {
     margin: 33px;
+    font-size: 30px
  }
 
-.bottomBox em {
+.TeachingBox em {
     color: #00BBFF;
 }
 
-.bottomleftbox {
+.TeachingItems {
     float: left;
     width: 600px;
 }
 
-.bottomleftbox div {
+.TeachingItems div {
     float: left;
     width: 600px;
     margin-left: 35px;
     margin-bottom: 35px;
 }
 
-.bottomleftbox b {
-    margin: 30px;
+.TeachingItems h3 {
+   float: left;
+   margin-left: 30px;
+   font-weight: bold;
 }
 
-.bottomleftbox p {
+.TeachingItems p {
     margin-left: 225px;
 }
 
-.bottomleftbox img {
+.TeachingItems img {
     float: left;
     border-color: #F4F4F4;
     border-style: solid;
     border-width: 5px;
 }
 
-.bottomrightbox {
+.Servicesbox {
     float: right;
     width: 300px;
-    height: 500px;
 }
-
-.bottomrightbox h2{
+.Servicesbox h2{
 	margin: 23px;
 }
 
-.bottomrightbox li {
+.Servicesbox li {
     background-image: url("../images/icon_03.png");
     background-repeat: no-repeat;
     background-position: 0px 8px;
@@ -188,7 +184,7 @@ body {
     overflow: hidden;
 }
 
-.bottomrightbox ul {
+.Servicesbox ul {
     padding: 0px 0px 0px 33px;
 }
 
@@ -214,8 +210,6 @@ body {
 .footer {
     float: left;
     width: 950px;
-    height: 130px;
-    margin-top: 15px;
     text-align: center;
 }
 
