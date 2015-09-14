@@ -59,6 +59,7 @@ body {
 }
 
 .menu a:link {
+	color: black;
     text-decoration: none;
 }
 
@@ -80,7 +81,6 @@ body {
 .banner {
     background-color: #292929;
     margin-top: 30px;
-    height: 415px;
     width: 950px;
     float: left;
 }
@@ -114,7 +114,6 @@ body {
 .centerBox {
     float: left;
     width: 950px;
-    height: 150px;
     margin-top: 30px;
     background-color: #FFF;
 }
@@ -131,7 +130,6 @@ body {
 .bottomBox {
     float: left;
     width: 950px;
-    height: 480px;
     margin-top: 30px;
     background-color: #FFF;
 }
